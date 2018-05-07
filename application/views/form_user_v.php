@@ -19,8 +19,10 @@
 		<td>:</td>
 		<td><input name="fullname" value=""></td></tr>
 	<tr>
-		<td>Level</td><td>:</td>
-		<td><input name="tombol" value=""></td></tr>
+		<td>Level</td><td></td><td><select name ="level">
+		<option value="admin">Admin</option>
+		<option value="user">User</option></select></td></tr>
+		</tr>
 		<tr><td><input type="submit" name="tombol" value="simpan"></td>
 	</tr>
 	</table>
